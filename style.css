@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body { 
+    font-family: 'Inter';
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 350px;
+    margin: auto;
+}
+
+header {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+main {
+    flex-grow: 1;
+    background: #1A1B21;
+    color: #dcdcdc;   
+    padding: 20px 35px; 
+}
+
+main h1 {
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 12.8px;
+    color: #F3BF99;
+    margin: 6px 0 8px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.email {
+    font-size: 10px;
+    color: #F5F5F5;
+}
+
+.button-set {
+    margin: 15px 0 20px;
+}
+
+.button-set a {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    text-decoration: none;
+    transition: .2s all; 
+}
+
+.button-set i {
+    margin-right: 8px;
+}
+
+.button-set .light, .button-set .dark:hover {
+    color: #374151;
+    border: 1px solid #D1D5DB;
+    background: #fff;
+    margin-right: 17px;
+}
+
+.button-set:hover .dark {
+    margin: 0;
+}
+
+.button-set .dark, .button-set .light:hover {
+    color: #fff;
+    border: 1px solid #5093E2;
+    background: #5093E2;
+}
+
+main h3 {
+    color: #F5F5F5;
+    margin: 15px 0 5px;
+}
+
+main p {
+    maring: 0;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+footer {
+    background: #161619;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #918E9B;
+    font-size: 25px;
+    margin: 12px;
+}
+
+footer a:hover {
+    color: #fff;
+    transition: .2s all;     
+}
